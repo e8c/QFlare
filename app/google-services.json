@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "219568787917",
+    "firebase_url": "https://qflare-b7f19.firebaseio.com",
+    "project_id": "qflare-b7f19",
+    "storage_bucket": "qflare-b7f19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219568787917:android:e33da855a23fc868",
+        "android_client_info": {
+          "package_name": "com.example.emilychou.qflare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219568787917-lfpdckt3t78nml1f09da365gofjbv1kv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.emilychou.qflare",
+            "certificate_hash": "56b632de6e8130e79ff5c564052bfb4c28225536"
+          }
+        },
+        {
+          "client_id": "219568787917-j4qgdnqkuimfjuk0u3jfr94nu34s2g0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtKNcdiZ2TeeVLt3H1u6AdB90yuIfbtYg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219568787917-j4qgdnqkuimfjuk0u3jfr94nu34s2g0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

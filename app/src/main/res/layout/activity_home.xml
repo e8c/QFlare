@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="136dp">
+
+        <TextView
+            android:id="@+id/homeLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/biorhyme_bold"
+            android:text="Home"
+            android:textSize="36sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:fontFamily="@font/biorhyme_bold"
+            android:hint="Search people... "
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/findPerson"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:fontFamily="@font/chonburi"
+            android:text="Go"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+        <TextView
+            android:id="@+id/assignedStaffLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/biorhyme_bold"
+            android:text="Your Current Room's Assigned Staff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/assignedStaff"
+            android:layout_width="match_parent"
+            android:layout_height="101dp" />
+
+        <Button
+            android:id="@+id/signOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:fontFamily="@font/chonburi"
+            android:text="Sign Out"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            app:srcCompat="@drawable/qflare_small" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
